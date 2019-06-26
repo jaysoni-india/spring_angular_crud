@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.demo.FirstApplication.CrudTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE! - in com.demo.FirstApplication.CrudTest
+testEmployee(com.demo.FirstApplication.CrudTest)  Time elapsed: 0.02 sec  <<< ERROR!
+java.lang.IllegalArgumentException: WebApplicationContext is required
+	at org.springframework.util.Assert.notNull(Assert.java:115)
+	at org.springframework.test.web.servlet.setup.DefaultMockMvcBuilder.<init>(DefaultMockMvcBuilder.java:52)
+	at org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup(MockMvcBuilders.java:47)
+	at com.demo.FirstApplication.CrudTest.setup(CrudTest.java:23)
+
+contextLoads(com.demo.FirstApplication.CrudTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.IllegalArgumentException: WebApplicationContext is required
+	at org.springframework.util.Assert.notNull(Assert.java:115)
+	at org.springframework.test.web.servlet.setup.DefaultMockMvcBuilder.<init>(DefaultMockMvcBuilder.java:52)
+	at org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup(MockMvcBuilders.java:47)
+	at com.demo.FirstApplication.CrudTest.setup(CrudTest.java:23)
+
