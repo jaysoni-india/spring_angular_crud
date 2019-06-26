@@ -6,4 +6,12 @@ import { Injectable } from '@angular/core';
 export class CrudService {
 
   constructor() { }
+
+  doPost(data:any){
+
+  }
+
+  doGet(){
+    
+  }
 }

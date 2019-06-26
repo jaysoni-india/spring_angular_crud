@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { EmployeeListComponent } from './admin/employee-list/employee-list.component';
+import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
     AdminComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    EmployeeListComponent,
+    AddEmployeeComponent,
   ],
   imports: [
     BrowserModule,
